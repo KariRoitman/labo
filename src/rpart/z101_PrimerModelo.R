@@ -2,7 +2,7 @@
 #Debe tener instaladas las librerias  data.table  ,  rpart  y  rpart.plot
 
 #cargo las librerias que necesito
-require("data.table")
+require("data.table") #necesito esta libreria 
 require("rpart")
 require("rpart.plot")
 
