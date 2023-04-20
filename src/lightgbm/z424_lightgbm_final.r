@@ -20,16 +20,17 @@ PARAM$input$dataset       <- "./datasets/dataset_pequeno.csv"
 PARAM$input$training      <- c( 202107 )   #meses donde se entrena el modelo
 PARAM$input$future        <- c( 202109 )   #meses donde se aplica el modelo
 
-PARAM$finalmodel$semilla           <- 102191
+PARAM$finalmodel$semilla           <- 201107
 
-PARAM$finalmodel$num_iterations    <-  559
-PARAM$finalmodel$learning_rate     <-    0.0100746999
-PARAM$finalmodel$feature_fraction  <-    0.5144127527
-PARAM$finalmodel$min_data_in_leaf  <-    505
-PARAM$finalmodel$num_leaves        <-     44
+PARAM$finalmodel$num_iterations    <-  31
+PARAM$finalmodel$learning_rate     <-   0.0111411453754121
+PARAM$finalmodel$feature_fraction  <-   0.999711460397934
+
+PARAM$finalmodel$min_data_in_leaf  <-    639
+PARAM$finalmodel$num_leaves        <-     1024
 
 
-PARAM$finalmodel$max_bin           <-     31
+PARAM$finalmodel$max_bin           <-     0
 
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
