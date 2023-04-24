@@ -169,7 +169,7 @@ EstimarGanancia  <- function( x )
 #------------------------------------------------------------------------------
 #Aqui empieza el programa
 
-setwd( "C:/Users/karin/Desktop/MCD/LI1/repositorio/labo/src/rpart" )
+setwd( "C:/Users/karin/Desktop/MCD/LI1/repositorio/labo/src" )
 
 #cargo el dataset, aqui debe poner  SU RUTA
 dataset  <- fread( PARAM$dataset )   #donde entreno
