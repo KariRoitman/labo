@@ -49,9 +49,9 @@ PARAM$Tendencias2$ratiomax  <- FALSE
 
 
 PARAM$RandomForest$run  <- FALSE
-PARAM$RandomForest$num.trees  <- 40
+PARAM$RandomForest$num.trees  <- 30
 PARAM$RandomForest$max.depth  <-  5
-PARAM$RandomForest$min.node.size  <- 500
+PARAM$RandomForest$min.node.size  <- 300
 PARAM$RandomForest$mtry  <- 15
 
 PARAM$CanaritosAsesinos  <- 3
