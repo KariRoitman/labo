@@ -488,7 +488,7 @@ obj.fun  <- makeSingleObjectiveFunction(
 
 #archivo donde se graba y cada cuantos segundos
 ctrl  <- makeMBOControl( save.on.disk.at.time= 600,  
-                         save.file.path=       "bayesiana.RDATA" )
+                         save.file.path=       "bayesian.RDATA" )
 
 ctrl  <- setMBOControlTermination( ctrl, 
                                    iters= PARAM$bo_iteraciones )   #cantidad de iteraciones
