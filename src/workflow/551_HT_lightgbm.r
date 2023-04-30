@@ -30,7 +30,7 @@ options(error = function() {
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento <- "HT5510"
+PARAM$experimento <- "HT5511"
 
 PARAM$exp_input  <- "TS5410"
 
@@ -488,7 +488,7 @@ obj.fun  <- makeSingleObjectiveFunction(
 
 #archivo donde se graba y cada cuantos segundos
 ctrl  <- makeMBOControl( save.on.disk.at.time= 600,  
-                         save.file.path=       "bayesian.RDATA" )
+                         save.file.path=       "bayesiana.RDATA" )
 
 ctrl  <- setMBOControlTermination( ctrl, 
                                    iters= PARAM$bo_iteraciones )   #cantidad de iteraciones
