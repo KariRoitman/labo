@@ -51,7 +51,8 @@ PARAM$lgb_basicos <- list(
    verbosity= -100,                # -1 significa no limitar,  por ahora lo dejo fijo
    min_sum_hessian_in_leaf= 0.001, #  min_sum_hessian_in_leaf >= 0.0
    max_bin= 31L,                   #lo debo dejar fijo, no participa de la BO
-   num_iterations= 9999,           #un numero muy grande, lo limita early_stopping_rounds
+   num_iterations= 9999,
+   bagging_fraction= 1.0,           #un numero muy grande, lo limita early_stopping_rounds
    pos_bagging_fraction= 1.0,      # 0.0 < pos_bagging_fraction <= 1.0
    neg_bagging_fraction= 1.0,      # 0.0 < neg_bagging_fraction <= 1.0
    is_unbalance=  FALSE,           # 
@@ -75,7 +76,6 @@ PARAM$bo_lgb <- makeParamSet(
          makeIntegerParam("min_data_in_leaf", lower=    1L,   upper= 50000L),
          makeIntegerParam("max_depth", lower=  3L, upper= 12L),
          makeIntegerParam("min_gain_to_split", lower=0.05, upper= 0.15),
-         makeIntegerParam("bagging_fraction", lower= 0.75, upper=0.90), 
          makeIntegerParam("lambda_l1", lower= 0.0001, upper=1),
          makeIntegerParam("lambda_l2", lower= 0.0001, upper=1)                               
         )
