@@ -68,7 +68,7 @@ PARAM$lgb_basicos <- list(
 
 
 #Aqui se cargan los hiperparametros que se optimizan en la Bayesian Optimization
-PARAM$bo_lgb <- makeParamSetmakeParamSet( 
+PARAM$bo_lgb <- makeParamSet( 
          makeNumericParam("learning_rate",    lower=    0.01, upper=     0.3),
          makeNumericParam("feature_fraction", lower=    0.01, upper=     1.0),
          makeIntegerParam("num_leaves",       lower=    500L,   upper=  2000L),
