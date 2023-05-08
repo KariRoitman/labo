@@ -1,0 +1,7 @@
+experimento: DR6210
+exp_input: CA6110
+variables_intrames: yes
+metodo: rank_cero_fijo
+stat:
+  time_start: 20230507 150712
+  time_end: 20230507 150737

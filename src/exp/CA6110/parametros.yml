@@ -1,0 +1,6 @@
+experimento: CA6110
+dataset: ./datasets/dataset_pequeno.csv
+metodo: MachineLearning
+stat:
+  time_start: 20230507 143116
+  time_end: 20230507 143320
