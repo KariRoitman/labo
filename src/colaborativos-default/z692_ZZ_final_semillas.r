@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Default
+# Experimentos Colaborativos Default revisores
 
 # Workflow  ZZ proceso final con semillas
 # Este nuevo script fue desarrolado para ayudar a los alumnos en la realizacion de los experimentos colaborativos
@@ -35,8 +35,8 @@ PARAM$experimento  <- "ZZ6920"
 PARAM$exp_input  <- "HT6510"
 
 #Atencion, que se procesan 5 modelos y cada uno con 5 semillas, ajuste a SUS necesidades
-PARAM$modelos_rank  <- c( 1, 2, 5, 10, 50 )  #Que modelos quiero, segun su posicion en el ranking
-PARAM$semillas  <- c( 102191, 200177, 410551, 552581, 892237 ) #reemplazar por las propias semillas
+PARAM$modelos_rank  <- c(1)  #Que modelos quiero, segun su posicion en el ranking
+PARAM$semillas  <- c( 201107,  433781, 590041, 604711, 931517, 262139, 394943, 638819, 819031, 902761) #reemplazar por las propias semillas
 
 PARAM$kaggle$envios_desde  <-  8000
 PARAM$kaggle$envios_hasta  <- 13500
