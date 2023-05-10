@@ -141,6 +141,10 @@ AgregarVariables_IntraMes  <- function( dataset )
    dataset[ , fm_cacr_pres    := fm_sueldo_acr*fm_pres_sueldo]
    dataset[ , fm_cs_pres    := fm_cuenta_sueldo*fm_pres_sueldo]
    dataset[ , fm_mix    := fm_sueldo_acr*fm_pres_sueldo*fm_cuenta_sueldo]
+   dataset[ , fm_cacr_suel2    := fm_sueldo_acr*(fm_cuenta_sueldo)^2]
+   dataset[ , fm_cs_pres2    := (fm_cuenta_sueldo)^2*fm_pres_sueldo]
+   dataset[ , fm_mix2    := fm_sueldo_acr*fm_pres_sueldo*(fm_cuenta_sueldo)^2]
+   
    
   
 
