@@ -31,7 +31,7 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento  <- "09_R_ZZ_Ex30Var"
+PARAM$experimento  <- "09_R_ZZ_DConCan"
 PARAM$exp_input  <- "KRevHT6510"
 
 #Atencion, que se procesan 5 modelos y cada uno con 5 semillas, ajuste a SUS necesidades
