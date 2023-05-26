@@ -22,7 +22,7 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento <- "09_FE_60Var2"
+PARAM$experimento <- "09_FE_60Vari2"
 
 PARAM$exp_input  <- "09_DR_60Var2"
 
