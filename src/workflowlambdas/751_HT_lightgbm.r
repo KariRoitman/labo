@@ -31,9 +31,9 @@ options(error = function() {
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento  <- "09_HT_60Var2"
+PARAM$experimento  <- "09l_HT_60Var2"
 
-PARAM$exp_input  <- "09_TS_60Var2"
+PARAM$exp_input  <- "09l_TS_60Var2"
 
 PARAM$lgb_crossvalidation_folds  <- 5  #En caso que se haga cross validation, se usa esta cantidad de folds
 
@@ -51,7 +51,7 @@ PARAM$lgb_basicos <- list(
    force_row_wise= TRUE,           #para que los alumnos no se atemoricen con tantos warning
    verbosity= -100,
    max_depth=  -1L,                # -1 significa no limitar,  por ahora lo dejo fijo
-   min_gain_to_split= 0.0,         # min_gain_to_split >= 0.0
+   #min_gain_to_split= 0.0,         # min_gain_to_split >= 0.0
    min_sum_hessian_in_leaf= 0.001, #  min_sum_hessian_in_leaf >= 0.0
    #lambda_l1= 0.0,                 # lambda_l1 >= 0.0
    #lambda_l2= 0.0,                 # lambda_l2 >= 0.0
