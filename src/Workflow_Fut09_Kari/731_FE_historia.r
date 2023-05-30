@@ -22,9 +22,9 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento <- "09sinpan2FE"
+PARAM$experimento <- "09sinpanFE"
 
-PARAM$exp_input  <- "09_DR_60Var2"
+PARAM$exp_input  <- "09p_DR_60Var2"
 
 PARAM$lag1  <- TRUE
 PARAM$lag2  <- TRUE
@@ -56,7 +56,7 @@ PARAM$RandomForest$min.node.size  <- 1000
 PARAM$RandomForest$mtry  <- 40
 PARAM$RandomForest$semilla  <- 563214    # cambiar por la propia semilla
 
-PARAM$CanaritosAsesinos$ratio  <- 0.2        #varia de 0.0 a 2.0, si es 0.0 NO se activan
+PARAM$CanaritosAsesinos$ratio  <- 0.0        #varia de 0.0 a 2.0, si es 0.0 NO se activan
 PARAM$CanaritosAsesinos$desvios  <- 2.0      #desvios estandar de la media, para el cutoff
 PARAM$CanaritosAsesinos$semilla  <- 568947   # cambiar por la propia semilla
 
